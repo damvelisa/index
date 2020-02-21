@@ -1,0 +1,26 @@
+{
+  "name": "Touma index",
+  "version": "1.0",
+  "description": "Google Drive Index",
+  "main": "index.js",
+  "scripts": {
+    "test": "wrangler preview --watch",
+    "build": "wrangler build",
+    "deploy": "wrangler publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damvelisa/touma.git"
+  },
+  "keywords": [
+    "gdrive",
+    "cloudflare-workers",
+    "serverless"
+  ],
+  "author": "damvelisa <damvelisa@gmail.com> (https://github.com/damvelisa)",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/damvelisa/touma/issues"
+  },
+  "homepage": "https://github.com/damvelisa"
+}
